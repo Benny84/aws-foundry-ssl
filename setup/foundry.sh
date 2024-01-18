@@ -4,7 +4,7 @@
 # Download and install FoundryVTT
 # -------------------------------
 
-sudo mkdir -p /foundrycron /var/log/foundrycron /home/foundry/foundry-install /foundrydata /foundrydata/Data
+sudo mkdir -p /foundrycron /var/log/foundrycron /home/foundry/foundry-install /foundrydata /foundrydata/Data /foundrydata/Config
 
 # Download Foundry from Patreon link or Google Drive
 cd /home/foundry/foundry-install

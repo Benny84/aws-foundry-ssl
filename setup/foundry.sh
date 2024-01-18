@@ -71,7 +71,7 @@ unzip -u foundry.zip
 rm -f foundry.zip
 
 # Allow rwx in the Data folder only for ec2-user:foundry
-sudo chown -R foundry:foundry /home/foundry /foundrydata
+sudo chown -R foundry:foundry /home/foundry /foundrydata /foundrydata/Config
 sudo find /foundrydata -type d -exec chmod 775 {} +
 sudo find /foundrydata -type f -exec chmod 664 {} +
 

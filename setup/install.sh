@@ -46,6 +46,9 @@ sudo chmod 744 /aws-foundry-ssl/utils/*.sh
 sudo chmod 700 /tmp/foundry-setup.log
 sudo rm /foundryssl/variables_tmp.sh
 
+#make foundry the owner of the options file.
+sudo chown -R foundry:foundry /foundrydata/Config/*
+
 # Uncomment only if you really care to:
 # sudo rm -r /aws-foundry-ssl
 
